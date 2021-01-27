@@ -1,5 +1,5 @@
 import java.util.*;
- public class Exercise66 {
+ public class sumofprime {
  public static void main(String[] args)
  {
     int sum = 1;
