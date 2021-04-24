@@ -21,7 +21,12 @@ void push(int data)
 }
 void delete_last()
 {
-	//Node current=head;
+	if(head==null)
+	{
+		System.out.println("List is Empty ");
+	}
+	else
+	{
 	Node second_last=head;
 	while(second_last.next.next!=null)
 	{
@@ -29,7 +34,7 @@ void delete_last()
 	}
 	second_last.next=null;
 }
-
+}
 static void print()
 {
 	Node n=head;
