@@ -12,31 +12,15 @@ static class Node{
 		data=d;
 	}
 	}
-     public void deleteAt(int index)
-    {
-	 if(index==0)
-	 {
-		 head=head.next;
-	 }
-	 else
-	 {
-		 Node n=head;
-		 Node n1=null;
-		 for(int i=0;i<index-1;i++)
-		 {
-			 n=n.next;
-		 }
-		 n1=n.next;
-		 n.next=n1.next;
-		 //System.out.println("n1 ",+n1.data);
-		 n1=null;
-	 }
-}
 void push(int data)
 {
 	Node node=new Node(data);
 	node.next=head;
 	head=node;
+}
+void delete_first()
+{
+	head=head.next;
 }
 static void print()
 {
@@ -48,10 +32,7 @@ static void print()
 	}
 	System.out.println();
 }
-void delete_first()
-{
-	head=head.next;
-}
+
 public static void main(String[] args)
 {
 	delete_first_node list=new delete_first_node();
