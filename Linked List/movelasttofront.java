@@ -1,5 +1,7 @@
-package linked_list;
 //Moving the last element to the front in the linked list
+
+package linked_list;
+
 public class movelasttofront {
 static Node head;
 static class Node{
