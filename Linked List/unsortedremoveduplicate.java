@@ -1,4 +1,7 @@
+//Remove duplicates from an unsorted linked list
+
 package linked_list;
+
 import java.util.HashSet;
 public class unsortedremoveduplicate {
     static class node
