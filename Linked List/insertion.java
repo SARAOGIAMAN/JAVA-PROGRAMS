@@ -1,3 +1,5 @@
+//insert a node in a linked list
+
 public class insertion {
 	static Node head;
 	static class Node{
